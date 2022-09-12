@@ -7,10 +7,10 @@
         <listEntry value="1"/>
     </listAttribute>
     <mapAttribute key="org.eclipse.debug.core.environmentVariables">
-        <mapEntry key="TWILIO_KEY" value="d1a9f4c994b4c3be555d4a7da14150f7"/>
-        <mapEntry key="TWILIO_PHONE_FROM" value="+18149047942"/>
+        <mapEntry key="TWILIO_KEY" value="285218a9b5cfb864760a4fe15ea1b8b9"/>
+        <mapEntry key="TWILIO_PHONE_FROM" value="+16802082832"/>
         <mapEntry key="TWILIO_PHONE_TO" value="+5511954616854"/>
-        <mapEntry key="TWILIO_SID" value="ACf67161012231c3c2841684db42797e53"/>
+        <mapEntry key="TWILIO_SID" value="AC2c86c004e4317fed2bb6895f1baed2c3"/>
     </mapAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>

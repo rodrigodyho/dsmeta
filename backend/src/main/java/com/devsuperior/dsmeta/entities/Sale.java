@@ -11,15 +11,15 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_sales")
 public class Sale {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private LocalDate date;
 	private String sellerName;
 	private Integer visited;
 	private Integer deals;
 	private Double amount;
+	private LocalDate date;
 	
 	public Sale() {
 	}
@@ -30,14 +30,6 @@ public class Sale {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public LocalDate getDate() {
-		return date;
-	}
-
-	public void setDate(LocalDate date) {
-		this.date = date;
 	}
 
 	public String getSellerName() {
@@ -71,5 +63,12 @@ public class Sale {
 	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
-	
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
 }

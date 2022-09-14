@@ -1,6 +1,6 @@
 import logo from '../../assets/img/logo.svg';
 
-import'./styles.css';
+import './styles.css';
 
 function Header() {
     return (
@@ -8,10 +8,10 @@ function Header() {
         <header>
             <div className="dsmeta-logo-container">
                 <img src={logo} alt="DSMeta" />
-                <h1>DSMeta</h1>
+                <h1>Dash Board de Vendas</h1>
                 <p>
                     Desenvolvido por
-                    <a href="https://instagram.com/devsuperior.ig"> @devsuperior.ig</a>
+                    <a href="https://www.linkedin.com/in/rodrigosantoslima/"> Rodrigo Lima</a>
                 </p>
             </div>
         </header>
